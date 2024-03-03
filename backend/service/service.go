@@ -6,7 +6,7 @@ import (
 
 	"github.com/gstalker/PolarNight/service/direct"
 	"github.com/gstalker/PolarNight/service/group"
-	"github.com/gstalker/PolarNight/types"
+	"github.com/gstalker/PolarNight/terminal/types"
 	"github.com/gstalker/PolarNight/utility"
 )
 

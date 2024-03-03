@@ -1,8 +1,8 @@
 package wechat
 
 import (
+	"github.com/gstalker/PolarNight/terminal/types"
 	"github.com/gstalker/PolarNight/terminal/wechat/wcf"
-	"github.com/gstalker/PolarNight/types"
 )
 
 // NewWechatTerminal 获取微信终端

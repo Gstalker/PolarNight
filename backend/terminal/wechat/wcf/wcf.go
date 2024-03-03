@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/danbai225/WeChatFerry-go/wcf"
-	"github.com/gstalker/PolarNight/types"
+	"github.com/gstalker/PolarNight/terminal/types"
 	"github.com/sirupsen/logrus"
 )
 

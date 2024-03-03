@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/gstalker/PolarNight/config"
+	"github.com/gstalker/PolarNight/terminal/types"
 	"github.com/gstalker/PolarNight/terminal/wechat"
-	"github.com/gstalker/PolarNight/types"
 )
 
 // messageTerminal 聊天信息收发终端
@@ -19,7 +19,7 @@ func Init() (err error) {
 			return err
 		}
 	default:
-		return fmt.Errorf("not a valid terminal type")
+		return fmt.Errorf(types.ErrInvalidTerminalType)
 	}
 	return nil
 }

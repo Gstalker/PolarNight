@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gstalker/PolarNight/service"
 	"github.com/gstalker/PolarNight/terminal"
-	"github.com/gstalker/PolarNight/types"
+	"github.com/gstalker/PolarNight/terminal/types"
 	"github.com/sirupsen/logrus"
 )
 
